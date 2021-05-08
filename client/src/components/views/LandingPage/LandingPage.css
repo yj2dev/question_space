@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+body {
+  /* background: linear-gradient(to right bottom, #3498db, #8e44ad, #d35400); */
+  font-family: "Nanum Gothi ", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+/* a {
+  text-decoration: none;
+  color: #4b7bec;
+}
+a:hover {
+  color: #3867d6;
+} */
+.link_hover {
+  text-decoration: none;
+  color: #4b7bec;
+}
+.link_hover:hover {
+  cursor: pointer;
+  color: #3867d6;
+  background-color: #dcdde1;
+}
+#landing__container {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  width: 750px;
+  height: 450px;
+  border: 1px solid #dadce0;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 1px #7f8fa6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  user-select: none;
+}
+#container_title {
+  font-size: 25px;
+  margin: 30px;
+  letter-spacing: 1px;
+}
+.container_article {
+  margin-top: 10px;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+}
+.point-red {
+  font-size: 1.2em;
+  font-weight: 800;
+  color: #e84118;
+  background-color: #dcdde1;
+}
+.btn_default-blue {
+  width: 75px;
+  font-size: 1em;
+  padding: 8px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  background-color: #4b7bec;
+}
+.btn_default-blue:hover {
+  cursor: pointer;
+  background-color: #3867d6;
+}
+.btn_default-green {
+  width: 75px;
+  font-size: 1em;
+  padding: 8px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  background-color: #20bf6b;
+}
+.btn_default-green:hover {
+  cursor: pointer;
+  background-color: #05c46b;
+}
+.link_ghost {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  color: #4b7bec;
+  font-weight: 400;
+}
+.link_ghost:hover {
+  cursor: pointer;
+  color: #3867d6;
+}
